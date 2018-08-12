@@ -1,0 +1,3 @@
+// the configured options and settings for statistics library
+#define statistics_VERSION_MAJOR @Statistics_VERSION_MAJOR@
+#define statistics_VERSION_MINOR @Statistics_VERSION_MINOR@
