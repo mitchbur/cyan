@@ -1,4 +1,3 @@
-cmake_minimum_required (VERSION 3.12)
 project ( libcercuni_unit_test )
 
 set ( EXTRA_LIBS ${EXTRA_LIBS} cercuni )
