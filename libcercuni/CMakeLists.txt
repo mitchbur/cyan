@@ -2,11 +2,14 @@ project ( libcercuni )
 
 add_definitions ( -std=c++14 )
 
-add_library( cercuni real_imag.cpp )
+add_library( cercuni 
+	real_imag.cpp 
+	mock_exception.cpp
+	cercuni.h )
 
 # The version number.
 set ( cercuni_VERSION_MAJOR 0 )
-set ( cercuni_VERSION_MINOR 2 )
+set ( cercuni_VERSION_MINOR 3 )
 
 # configure a header file to pass some of the CMake settings
 # to the source code

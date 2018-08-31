@@ -14,5 +14,6 @@ endif ( CMAKE_HOST_UNIX )
 
 add_executable ( cercuni_utest
 	utest_real_imag.cpp
+	utest_mock_exception.cpp
  )
 target_link_libraries ( cercuni_utest ${EXTRA_LIBS} )

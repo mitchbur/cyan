@@ -3,7 +3,8 @@
 #include <tuple>
 #include <cmath>
 
-#define DOUBLE_NEAR   ( 2.5e-16 )
+// 51.5 binary-digit precision
+#define DOUBLE_NEAR   ( 3.1402e-16 )
 
 TEST( utest_real_imag, arg_zero )
 {
